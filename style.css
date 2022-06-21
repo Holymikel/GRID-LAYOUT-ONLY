@@ -55,6 +55,24 @@ main div {
     grid-area: e;
 }
 
+.flex {
+  background-color: blue; 
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  position: relative;
+  border: 3px solid red;
+  right: 0px;
+  top: 50px;
+  
+}
+
 
 footer {
     font-weight: 200;
