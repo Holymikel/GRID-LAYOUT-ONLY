@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(92, 109, 62);
+    display: ;
+    place-items: center;
+    min-height: 100vh;
+}
+
+main {
+    display: grid;
+    gap: 15px;
+    padding: 80px;
+    margin: auto;
+    width: 50%;
+    grid-template-areas:
+    "a a a b b"
+    "c c d d d"
+    "c c e e e";
+    grid-template-rows: 200px auto 125px;
+    background-color: rgb(24, 23, 23);
+}
+
+main div {
+    padding: 3.5em;
+    text-align: center;
+}
+
+.class1 {
+    background-color: orangered;
+    grid-area: a;
+
+}
+
+.class2 {
+    background-color: orange;
+    grid-area: b;
+}
+
+.class3 {
+    background-color: #129227;
+    grid-area: c;
+}
+
+.class4 {
+    background-color: rgb(17, 176, 230);
+    grid-area: d;
+}
+
+.class5 {
+    background-color: rgb(17, 176, 230);
+    grid-area: e;
+}
+
+
+footer {
+    font-weight: 200;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    background: #771d1d;
+    border-top: 1px solid rgb(255, 255, 255);
+    bottom: 0;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+  }
+  
